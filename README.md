@@ -8,7 +8,7 @@
 
 Получается такая схема:
 
-[](diagram.png)
+<img src="https://github.com/EtoMisha/LEMP/blob/main/diagram.png" width="600" /> 
 
 Дополнительные условия:
 
@@ -23,7 +23,11 @@
 В Makefile описаны инструкции для запуска:
 
 `make` - собрать и поднять контейнеры
+
 `make down` - остановить
+
 `make re` - перезапустить
+
 `make ps` - статус контейнеров
+
 `make fclean` - остановить и очистить вольюмы
